@@ -24,7 +24,7 @@ Exemplificação da sintaxe geral e básica da Linguagem C++
 
 ```sh
 .
-├── main.p
+├── main.c++
 ├── README.md
 ```
 
