@@ -8,7 +8,7 @@ int main() {
   double peso = 70.5;
   // bool ativo = true;
 
-  int val1, val2, soma;
+  int val1, val2, soma, subtracao, multiplicacao, divisao, modulo;
 
   int idadeTernario;
 
@@ -34,15 +34,16 @@ int main() {
     de varias linhas */
 
   // ESCREVER NA TELA
-  std::cout << "Hello World!\n";
+  std::cout << "#### Escrever na tela #### \n";
+  std::cout << "Olá Mundo \n";
   std::cout << "\n";
 
   // VARIAVEIS
   std::cout << "### VARIAVEIS ###\n";
-  std::cout << nome << "\n";
-  std::cout << idade << "\n";
-  // std::cout << sexo << "\n";
-  std::cout << peso << "\n";
+  std::cout << "Nome: " << nome << "\n";
+  std::cout << "Idade: " << idade << "\n";
+  // std::cout << "Sexo: " << sexo << "\n";
+  std::cout << "Peso: " << peso << "\n";
   std::cout << "\n";
 
   // CONSTANTE
@@ -50,7 +51,8 @@ int main() {
   std::cout << PI << "\n";
   std::cout << "\n";
 
-  std::cout << "#### Capturando Variáveis #### \n";
+  // OPERACOES
+  std::cout << "#### OPERACOES #### \n";
   std::cout << "Informe o valor 1: ";
   std::cin >> val1;
 
@@ -58,7 +60,15 @@ int main() {
   std::cin >> val2;
 
   soma = val1 + val2; // Pode usar: (+, -, *, /, %)
-  std::cout << soma << "\n";
+  subtracao = val1 - val2;
+  multiplicacao = val1 * val2;
+  divisao = val1 / val2;
+  modulo = val1 % val2;
+  std::cout << "Soma: " << soma << "\n";
+  std::cout << "Subtração: " << subtracao << "\n";
+  std::cout << "Multiplicação: " << multiplicacao << "\n";
+  std::cout << "Divisão: " << divisao << "\n";
+  std::cout << "Modulo: " << modulo << "\n";
   std::cout << "\n";
 
   // TERNARIO
