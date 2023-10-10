@@ -237,8 +237,11 @@ int main() {
   
   // TRY
   std::cout << "### TRY ###\n";
-  std::cout << "Digite dois números para a divisão:" << std::endl;
-  std::cin >> numero1 >> numero2;
+  std::cout << "Informe o valor 1 para o dividendo: ";
+  std::cin >> numero1;
+
+  std::cout << "Informe o valor 2 para o divisor: ";
+  std::cin >> numero2;
     
   try {
       if (numero2 == 0) {
